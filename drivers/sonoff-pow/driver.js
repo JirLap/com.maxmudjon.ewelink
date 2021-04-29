@@ -1,9 +1,9 @@
 "use strict";
 
 const Homey = require("homey");
-const models = ["Sonoff Pow", "Pow_R2"];
+const models = ["Sonoff Pow", "POWR2"];
 
-const deviceCapabilities = { "Sonoff Pow": ["onoff", "measure_power"], Pow_R2: ["onoff", "measure_power", "meter_power", "measure_voltage"] };
+const deviceCapabilities = { "Sonoff Pow": ["onoff", "measure_power"], POWR2: ["onoff", "measure_power", "meter_power", "measure_voltage"] };
 
 class SonoffPow extends Homey.Driver {
   async onPairListDevices(data, callback) {

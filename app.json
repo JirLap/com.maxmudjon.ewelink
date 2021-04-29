@@ -1,6 +1,6 @@
 {
   "id": "com.maxmudjon.ewelink",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "compatibility": ">=2.2.0",
   "sdk": 2,
   "name": {
@@ -9,7 +9,9 @@
   "description": {
     "en": "Ewelink for Athom Homey"
   },
-  "category": ["tools"],
+  "category": [
+    "tools"
+  ],
   "permissions": [],
   "images": {
     "large": "/assets/images/large.png",
@@ -27,7 +29,9 @@
         "en": "Sonoff Basic / Basic 2"
       },
       "class": "light",
-      "capabilities": ["onoff"],
+      "capabilities": [
+        "onoff"
+      ],
       "images": {
         "large": "/drivers/sonoff-basic/assets/images/large.png",
         "small": "/drivers/sonoff-basic/assets/images/small.png"
@@ -184,10 +188,13 @@
     {
       "id": "sonoff-pow",
       "name": {
-        "en": "Sonoff Pow"
+        "en": "Sonoff Pow / Pow R2"
       },
       "class": "socket",
-      "capabilities": ["onoff", "measure_power"],
+      "capabilities": [
+        "onoff",
+        "measure_power"
+      ],
       "images": {
         "large": "/drivers/sonoff-pow/assets/images/large.png",
         "small": "/drivers/sonoff-pow/assets/images/small.png"
@@ -347,7 +354,12 @@
         "en": "Coolkit Socket"
       },
       "class": "socket",
-      "capabilities": ["onoff", "measure_power", "meter_power", "measure_voltage"],
+      "capabilities": [
+        "onoff",
+        "measure_power",
+        "meter_power",
+        "measure_voltage"
+      ],
       "images": {
         "large": "/drivers/coolkit-socket/assets/images/large.png",
         "small": "/drivers/coolkit-socket/assets/images/small.png"
@@ -507,7 +519,13 @@
         "en": "Sonoff SC"
       },
       "class": "sensor",
-      "capabilities": ["measure_pm25", "measure_humidity", "measure_luminance", "measure_noise", "measure_temperature"],
+      "capabilities": [
+        "measure_pm25",
+        "measure_humidity",
+        "measure_luminance",
+        "measure_noise",
+        "measure_temperature"
+      ],
       "images": {
         "large": "/drivers/sonoff-sc/assets/images/large.png",
         "small": "/drivers/sonoff-sc/assets/images/small.png"
@@ -667,7 +685,10 @@
         "en": "Sonoff T1 2C"
       },
       "class": "light",
-      "capabilities": ["onoff", "onoff.1"],
+      "capabilities": [
+        "onoff",
+        "onoff.1"
+      ],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
@@ -847,7 +868,9 @@
         "en": "Circuit Breaker"
       },
       "class": "light",
-      "capabilities": ["onoff"],
+      "capabilities": [
+        "onoff"
+      ],
       "images": {
         "large": "/drivers/circuit-breaker-zjsb9/assets/images/large.png",
         "small": "/drivers/circuit-breaker-zjsb9/assets/images/small.png"
@@ -1015,7 +1038,9 @@
         "en": "Coolkit Outdoor Socket"
       },
       "class": "socket",
-      "capabilities": ["onoff"],
+      "capabilities": [
+        "onoff"
+      ],
       "images": {
         "large": "/drivers/coolkit-outdoor-socket/assets/images/large.png",
         "small": "/drivers/coolkit-outdoor-socket/assets/images/small.png"
@@ -1175,7 +1200,9 @@
         "en": "Sonoff Mini"
       },
       "class": "socket",
-      "capabilities": ["onoff"],
+      "capabilities": [
+        "onoff"
+      ],
       "images": {
         "large": "/drivers/sonoff-mini/assets/images/large.png",
         "small": "/drivers/sonoff-mini/assets/images/small.png"
@@ -1335,7 +1362,11 @@
         "en": "Sonoff TH16"
       },
       "class": "sensor",
-      "capabilities": ["onoff", "measure_temperature", "measure_humidity"],
+      "capabilities": [
+        "onoff",
+        "measure_temperature",
+        "measure_humidity"
+      ],
       "images": {
         "large": "/drivers/sonoff-th16/assets/images/large.png",
         "small": "/drivers/sonoff-th16/assets/images/small.png"
@@ -1667,7 +1698,9 @@
         "en": "Sonoff T4EU1C"
       },
       "class": "light",
-      "capabilities": ["onoff"],
+      "capabilities": [
+        "onoff"
+      ],
       "images": {
         "large": "/drivers/sonoff-t4-1c/assets/images/large.png",
         "small": "/drivers/sonoff-t4-1c/assets/images/small.png"
@@ -1827,7 +1860,12 @@
         "en": "Sonoff 4CH Pro"
       },
       "class": "light",
-      "capabilities": ["onoff", "onoff.1", "onoff.2", "onoff.3"],
+      "capabilities": [
+        "onoff",
+        "onoff.1",
+        "onoff.2",
+        "onoff.3"
+      ],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
@@ -2105,7 +2143,9 @@
         "en": "Sonoff G1 GSM"
       },
       "class": "socket",
-      "capabilities": ["onoff"],
+      "capabilities": [
+        "onoff"
+      ],
       "images": {
         "large": "/drivers/sonoff-g1-gsm/assets/images/large.png",
         "small": "/drivers/sonoff-g1-gsm/assets/images/small.png"
@@ -2265,7 +2305,9 @@
         "en": "Sonoff S20 / S26 (R1)"
       },
       "class": "socket",
-      "capabilities": ["onoff"],
+      "capabilities": [
+        "onoff"
+      ],
       "images": {
         "large": "/drivers/sonoff-s20/assets/images/large.png",
         "small": "/drivers/sonoff-s20/assets/images/small.png"
@@ -2425,7 +2467,12 @@
         "en": "ABC 2.0 LED"
       },
       "class": "light",
-      "capabilities": ["onoff", "dim", "light_hue", "RGBEffects"],
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "RGBEffects"
+      ],
       "images": {
         "large": "/drivers/abc-2.0-led/assets/images/large.png",
         "small": "/drivers/abc-2.0-led/assets/images/small.png"
@@ -2531,7 +2578,9 @@
         "en": "Generic devices"
       },
       "class": "socket",
-      "capabilities": ["onoff"],
+      "capabilities": [
+        "onoff"
+      ],
       "images": {
         "large": "/drivers/generic/assets/images/large.png",
         "small": "/drivers/generic/assets/images/small.png"
@@ -2637,13 +2686,20 @@
         "en": "Temperature Humidity sensor"
       },
       "class": "socket",
-      "capabilities": ["measure_temperature", "measure_humidity", "measure_battery", "alarm_battery"],
+      "capabilities": [
+        "measure_temperature",
+        "measure_humidity",
+        "measure_battery",
+        "alarm_battery"
+      ],
       "images": {
         "large": "/drivers/zigbee_temperature_humidity_sensor/assets/images/large.png",
         "small": "/drivers/zigbee_temperature_humidity_sensor/assets/images/small.png"
       },
       "energy": {
-        "batteries": ["CR2450"]
+        "batteries": [
+          "CR2450"
+        ]
       },
       "pair": [
         {
@@ -2702,13 +2758,18 @@
         "en": "Switch"
       },
       "class": "socket",
-      "capabilities": ["measure_battery", "alarm_battery"],
+      "capabilities": [
+        "measure_battery",
+        "alarm_battery"
+      ],
       "images": {
         "large": "/drivers/zigbee_switch/assets/images/large.png",
         "small": "/drivers/zigbee_switch/assets/images/small.png"
       },
       "energy": {
-        "batteries": ["CR2450"]
+        "batteries": [
+          "CR2450"
+        ]
       },
       "pair": [
         {
@@ -2767,13 +2828,19 @@
         "en": "Motion sensor"
       },
       "class": "socket",
-      "capabilities": ["alarm_motion", "measure_battery", "alarm_battery"],
+      "capabilities": [
+        "alarm_motion",
+        "measure_battery",
+        "alarm_battery"
+      ],
       "images": {
         "large": "/drivers/zigbee_motion_sensor/assets/images/large.png",
         "small": "/drivers/zigbee_motion_sensor/assets/images/small.png"
       },
       "energy": {
-        "batteries": ["CR2450"]
+        "batteries": [
+          "CR2450"
+        ]
       },
       "pair": [
         {
